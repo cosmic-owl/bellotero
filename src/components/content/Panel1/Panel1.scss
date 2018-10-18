@@ -1,0 +1,23 @@
+$dark: #35374C;
+
+.panel1{
+    background-color: $dark;
+    color: white;
+}
+
+.bold-text{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.normal-text{
+    font-size: 40px;
+}
+
+.panel1-image{
+    float: right;
+}
+
+.panel1-text{
+    float: left;
+}

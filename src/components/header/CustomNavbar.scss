@@ -1,0 +1,45 @@
+$dark: #35374C;
+
+nav.navbar, .navbar-default{
+    background-color: $dark;
+}
+
+.navbar-default{
+    background-image: none;
+    border: none;
+    border-radius: 0;
+}
+
+.login-button {
+    border-color: white;
+    border-width: 1px;
+    background-color: $dark !important;
+    color: white;
+    padding: 11px 23px;
+}
+.login-button:hover {
+    border-color: white;
+    border-width: 1px;
+    background-color: #43455b !important;
+    color: white;
+}
+
+.btn-Basic {
+    background-color: #009e81;
+    color: white;
+    padding: 11px 15px;
+}
+.btn-Basic:hover {
+    background-color: #00b896;
+    color: white;
+}
+
+.nav-links > a{
+    font-size: 14px;
+    font-family: Roboto-Medium;
+    font-weight: bold;
+}
+
+.navButtons {
+
+}
