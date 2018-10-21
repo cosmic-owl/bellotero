@@ -8,6 +8,7 @@ import Panel3 from "./components/content/Panel3/Panel3";
 import Panel4 from "./components/content/Panel4/Panel4";
 import Panel5 from "./components/content/Panel5/Panel5";
 import Panel6 from "./components/content/Panel6/Panel6";
+import Panel7 from "./components/content/Panel7/Panel7";
 
 
 
@@ -24,6 +25,7 @@ class App extends Component {
                     <Panel4/>
                     <Panel5/>
                     <Panel6/>
+                    <Panel7/>
                 </div>
             </Router>
         );
