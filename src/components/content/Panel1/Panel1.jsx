@@ -16,20 +16,22 @@ class Panel1 extends React.Component {
     render() {
         return (
             <div className="panel1">
-                <Grid>
-                    <Row>
-                        <Col className="panel1-text" xl={5}>
-                            <div className="bold-text">Digitize your invoices</div>
-                            <text className="normal-text">
-                                And create your own <br/>
-                                shopping cart
-                            </text>
-                            <FormGroup controlId="demoRequest">
-                                <FormControl type="text" bsSize="large" value={this.state.value}/> <Button bsStyle="Basic">Request a demo</Button>
+                <Grid fluid>
+                    <Row className="panel1-row">
+                        <Col className="panel1-text" lg={5}>
+                            <div className="text-block">
+                                <text className="bold-text">Digitize your invoices <br/></text>
+                                <text className="normal-text">
+                                    and create your own <br/>
+                                    shopping cart
+                                </text>
+                            </div>
+                            <FormGroup controlId="demoRequest" className="demoRequest">
+                                <FormControl type="text" bsSize="large" value={this.state.value}/> <Button bsStyle="Basic" className="form-button">Request a demo</Button>
                             </FormGroup>
                         </Col>
-                        <Col xl={7}>
-                            <Image src="assets/hero-mockup.png" className="panel1-image" responsive></Image>
+                        <Col lg={7} className="panel1-image">
+                            <Image src="assets/hero-mockup.png" responsive></Image>
                         </Col>
                     </Row>
                 </Grid>

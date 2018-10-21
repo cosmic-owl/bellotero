@@ -1,0 +1,32 @@
+$pale-grey-two: #fafafc;
+
+.panel6 {
+background-color: $pale-grey-two;
+}
+
+.panel6-row {
+  margin-left: 15.9%;
+}
+
+.pnl6-slide {
+  width: 1279px;
+  height: 475px;
+  background-color: $pale-grey-two;
+  padding-top: 72px;
+}
+
+.carousel {
+  width:1284px;
+}
+
+.carousel-indicators > li {
+  background-color: rgba(0, 0, 0, 0.44);
+}
+
+.carousel-indicators > li.active {
+  background: #000;
+}
+
+a.carousel-control {
+  background-image: none !important;
+}

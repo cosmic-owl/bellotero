@@ -1,4 +1,5 @@
 $dark: #35374C;
+$teal: #009e81;
 
 nav.navbar, .navbar-default{
     background-color: $dark;
@@ -11,26 +12,51 @@ nav.navbar, .navbar-default{
     border-radius: 0;
 }
 
-.login-button {
+.login-button, .demo-req{
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    height: 34px;
+    margin-top: 13px;
+}
+
+.login-button, .login-button:focus {
     border-color: white;
     border-width: 1px;
+    border-radius: 2px;
+    margin-left: 5px;
     background-color: $dark !important;
     color: white;
     padding: 11px 23px;
+    width: 80px;
 }
+
 .login-button:hover {
     border-color: white;
     border-width: 1px;
-    background-color: #43455b !important;
+    border-radius: 2px;
+    background-color: #3c4454 !important;
     color: white;
 }
 
-.btn-Basic {
-    background-color: #009e81;
+.demo-req, .demo-req:focus{
+    //background-color: #009e81;
+    //color: white;
+    //padding: 11px 15px;
+    width: 120px;
+    margin-right: 5px;
+    margin-left: 36px;
+    border-radius: 2px;
+    border: solid 1px;
+    border-color: $teal;
     color: white;
-    padding: 11px 15px;
+    background-color: #00b896;
 }
-.btn-Basic:hover {
+.demo-req:hover {
     background-color: #00b896;
     color: white;
 }
@@ -39,6 +65,11 @@ nav.navbar, .navbar-default{
     font-size: 14px;
     font-family: Roboto-Medium;
     font-weight: bold;
+    margin-top: 6px;
+}
+
+.navbar-header {
+    margin-top: 6px;
 }
 
 .navButtons {

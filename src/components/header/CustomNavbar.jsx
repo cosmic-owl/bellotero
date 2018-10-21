@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 export default class CustomNavbar extends Component {
     render() {
         return (
-            <Navbar default collapseOnSelect>
+            <Navbar default collapseOnSelect fluid>
                 <Navbar.Header>
                     <Navbar.Brand>
                         <Link to="/"><Image src="assets/bellotero-logo.svg"></Image></Link>
@@ -21,8 +21,8 @@ export default class CustomNavbar extends Component {
                         <NavItem eventKey={4} href="/" to="/" className="nav-links">Partners</NavItem>
                         <NavItem eventKey={5} href="/" to="/" className="nav-links">About</NavItem>
                         <NavItem eventKey={6} href="/" to="/" className="nav-links">Blog</NavItem>
-                        <Button bsStyle="Basic" className="">Request a demo</Button>
-                        <Button className="login-button" >Log In</Button>
+                        <Button bsStyle="Basic" className="demo-req">Request a demo</Button>
+                        <Button className="login-button" bsStyle="Basic">Log In</Button>
                     </Nav>
 
                 </Navbar.Collapse>

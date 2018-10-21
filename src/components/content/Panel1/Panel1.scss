@@ -1,40 +1,48 @@
 $dark: #35374C;
-$green: #009e81;
+$teal: #00b896;
 $lighterGreen: #00b896;
 $inputDark: #1d1f35;
 
 .panel1{
     background-color: $dark;
     color: white;
-    padding-top: 95px;
-    padding-bottom: 145px;
+    //padding-top: 95px;
+    //padding-left: 23%;
+    //padding-right: 18%;
+    //padding-bottom: 145px;
+    padding-bottom: 7.5%;
+}
+
+.panel1-row{
+    width: 1280px;
+    height: 400px;
+    margin: auto;
+    padding-left: 5%;
+}
+
+.text-block{
+    height: 181px;
+    font-family: Roboto;
+    width: 370px;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: -1px;
+    text-align: left;
+    color: #ffffff;
 }
 
 .bold-text{
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.normal-text{
-    font-size: 40px;
+    font-weight: 500;
 }
 
 .panel1-image{
-    float: right;
-}
-
-.panel1-text{
-    float: left;
-}
-
-.btn.btn-default{
-    background-color: $green;
-    color: white;
-}
-
-.btn.btn-default:hover{
-    background-color: $lighterGreen;
-    color: white;
+    //float: right;
+    width: 750px;
+    height: 400px;
+    margin-top: 95px;
 }
 
 .form-control{
@@ -50,4 +58,32 @@ $inputDark: #1d1f35;
     line-height: 1;
     letter-spacing: normal;
     text-align: left;
+}
+
+#demoRequest {
+    width: 275px;
+    height: 42px;
+    float: left;
+}
+
+.demoRequest {
+    width: 402px;
+}
+
+.form-button{
+    width: 127px;
+    height: 42px;
+    border-radius: 2px;
+    border: solid 1px;
+    border-color: $teal;
+    background-color: $teal;
+}
+
+.panel1-text {
+    margin-top: 145px;
+    width: 402px;
+}
+
+.panel1-text > .form-group {
+    margin-top: 42px;
 }

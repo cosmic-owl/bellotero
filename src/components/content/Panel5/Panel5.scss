@@ -1,0 +1,72 @@
+$white-four: #ffffff;
+$white-two: #e5e5e5;
+.panel5{
+  //width: 1280px;
+  //margin-left: 18%;
+  //margin-top: 100px;
+  background-color: $white-four;
+}
+
+.panel5-row{
+  margin: auto;
+}
+.pnl5-col {
+  width: 1284px;
+  margin: auto;
+}
+
+.pnl5-img {
+  width: 428px;
+  height: 400px;
+  //display: inline-grid;
+  position: relative;
+}
+
+.pnl5-txt {
+  width: 181px;
+  height: 42px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 1.4px;
+  text-align: center;
+  color: $white-two;
+  position: absolute;
+  bottom: 50%;
+  left: 30%;
+}
+
+.pnl5-value{
+  width: 70px;
+  height: 64px;
+  font-family: RobotoSlab;
+  font-size: 64px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: right;
+  color: $white-four;
+}
+
+.pnl5-unit{
+  width: 23px;
+  height: 44px;
+  font-family: RobotoSlab;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: $white-four;
+}
+
+.pnl5-msg {
+
+}
